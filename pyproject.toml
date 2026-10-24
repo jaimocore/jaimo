@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jaimo"
+version = "0.1.0"
+description = "Python library and toolkit for data science applications."
+readme = "README.md"
+authors = [
+    { name = "JaiMo Core", email = "contact@jaimo.xyz" }
+]
+license = { text = "MIT" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+]
+requires-python = ">=3.14"
+dependencies = [
+    "numpy>=1.26",
+    "pandas>=2.3",
+    "marimo>=0.25",
+]
+
+[project.urls]
+Homepage = "https://github.com/jaimocore/jaimo"
+Repository = "https://github.com/jaimocore/jaimo.git"
